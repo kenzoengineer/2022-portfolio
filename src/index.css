@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --primary: #e2e7ec;
+  --secondary: #74787e;
+  --background: rgb(16, 18, 21);
+  --s1: rgb(246, 219, 88);
+  --s2: rgb(233, 131, 68);
+  --s3: rgb(210, 46, 60);
+  --s4: rgb(163, 57, 93);
+  --s5: rgb(105, 51, 83);
+
+  --anitime: 3s;
 }
