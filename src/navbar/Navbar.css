@@ -1,14 +1,36 @@
+@keyframes slidein {
+    0% {
+        transform: translateY(-3em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .navbar-container {
     position: fixed;
     background-color: var(--background);
-    width: 95vw;
+    width: 97vw;
     z-index: 10;
     display: flex;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     padding: 0.5em;
     align-items: center;
+    font-size: 1.2em;
     justify-content: right;
+
+    animation: 1s ease-in-out 0s slidein;
+    transform: translateY(-3em);
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar-container {
+        font-size: 3.2vw;
+    }
 }
 
 .navbar-item {
@@ -19,19 +41,29 @@
     margin: 0.2em;
 }
 
+.navbar-item:hover {
+    background: linear-gradient(135deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5)) border-box;
+    background-clip: text;
+    color: transparent;
+}
+
 .number {
     color: var(--secondary);
-    padding-right: 0.4em;
+    padding-right: 0.2em;
 }
 
 .resume-button {
     background:
         linear-gradient(var(--background) 0 0) padding-box,
-        /*this is your grey background*/
-        linear-gradient(to right, #9c20aa, #fb3570) border-box;
+        linear-gradient(135deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5)) border-box;
+    text-decoration: none;
     color: var(--primary);
     padding: 0.2em;
     border: 2px solid transparent;
     border-radius: 0.3em;
     margin: 0.2em;
+}
+
+.resume-button:hover {
+    transform: scale(1.05);
 }

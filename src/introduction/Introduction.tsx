@@ -17,7 +17,7 @@ const Introduction = () => {
                 With more than a year of internship experience, I've had the opportunity to work on a wide range of products, from small-scale in-house solutions to large scale enteprise solutions. I learn something new every day and am looking forward to beginning my first full time career when I graduate.
             </div>
             <div className="intro-experience">
-                <h1>Technical Experience</h1>
+                <h1>Technical Skills</h1>
                 <h2>Languages</h2>
                 <BadgeContainer text={languages}></BadgeContainer>
                 <h2>Frameworks/Libraries</h2>

@@ -8,7 +8,7 @@
 
 .left-half {
     padding-right: 2vw;
-    width: 50vw;
+    width: 46.5vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -18,7 +18,7 @@
 .right-half {
     display: flex;
     align-items: center;
-    width: 50vw;
+    width: 53.5vw;
 }
 
 @keyframes gradient {
@@ -35,21 +35,53 @@
     }
 }
 
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes glowin {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .portrait-glow {
     position: absolute;
     background: linear-gradient(90deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5));
     animation: gradient 5s ease infinite;
     animation-delay: 3s;
     background-size: 400% 400%;
-    right: 9.5vw;
-    height: 26vw;
-    width: 26vw;
+    right: 9vw;
+    height: 27vw;
+    width: 27vw;
+
+    animation: 1s ease-in-out 0s glowin;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
 }
 
 .big-portrait {
     position: absolute;
     right: 10vw;
     width: 25vw;
+
+    animation: 1s ease-in-out 0s fadein;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
 }
 
 .text-container {
@@ -75,6 +107,11 @@
     margin-bottom: -2vh;
     font-size: 5vmin;
     color: var(--background);
+
+    animation: 1s ease-in-out 0s fadein;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
 }
 
 .tagline {
@@ -82,6 +119,11 @@
     text-align: right;
     font-size: 3vmin;
     color: var(--secondary);
+
+    animation: 1s ease-in-out 0s fadein;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-delay: 500ms;
 }
 
 @media screen and (max-width: 500px) {
@@ -114,6 +156,28 @@
     display: flex;
 }
 
+.icon-container div {
+    animation: 1s ease-in-out 0s fadein;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.icon-container div:nth-child(1) {
+    animation-delay: 1000ms;
+}
+
+.icon-container div:nth-child(2) {
+    animation-delay: 1200ms;
+}
+
+.icon-container div:nth-child(3) {
+    animation-delay: 1400ms;
+}
+
+.icon-container div:nth-child(4) {
+    animation-delay: 1600ms;
+}
+
 .animated-banner {
     position: absolute;
     display: flex;
@@ -123,8 +187,8 @@
 
 .stripe-1 {
     animation: var(--anitime) ease-in-out 0s stripe-slide;
-    opacity: 0;
     animation-fill-mode: forwards;
+    opacity: 0;
     background-color: var(--s1);
     width: 1vw;
     height: 100%;

@@ -18,6 +18,10 @@
   }
 }
 
+* {
+  transition: 200ms;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 15px;

@@ -1,0 +1,26 @@
+.experience-container {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    margin-top: 5em;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary);
+    font-family: "Montserrat", sans-serif;
+}
+
+.experience-title {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.experience-card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}

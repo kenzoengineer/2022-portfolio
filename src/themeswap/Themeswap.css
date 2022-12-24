@@ -1,0 +1,46 @@
+@keyframes spin {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(210deg);
+    }
+
+    100% {
+        transform: rotate(390deg);
+    }
+}
+
+@keyframes wane {
+    0% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+.swap-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    border-radius: 10em;
+    aspect-ratio: 1/1;
+    width: 1em;
+    padding: 0.3em;
+    margin-left: 0.4em;
+    font-size: 1em;
+    color: var(--primary);
+    transform: rotate(30deg);
+    border: 2px solid var(--primary);
+    animation: 5s ease-in-out 1s infinite wane;
+    box-shadow: 0 0 10px 1px var(--primary);
+    cursor: pointer;
+}

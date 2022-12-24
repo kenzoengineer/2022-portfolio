@@ -10,6 +10,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 3em;
 }
 
 code {
@@ -20,7 +21,9 @@ code {
 :root {
   --primary: #e2e7ec;
   --secondary: #74787e;
-  --background: rgb(16, 18, 21);
+  --tertiary: #141619;
+  --background: #101215;
+
   --s1: rgb(246, 219, 88);
   --s2: rgb(233, 131, 68);
   --s3: rgb(210, 46, 60);
@@ -28,4 +31,5 @@ code {
   --s5: rgb(105, 51, 83);
 
   --anitime: 3s;
+  --brightness: 1;
 }

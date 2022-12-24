@@ -15,7 +15,7 @@
 .Icon-Background {
     position: absolute;
     border-radius: 10px;
-    opacity: 0;
+    opacity: 0 !important;
     background: linear-gradient(90deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5));
     transition-duration: 200ms;
     z-index: 1;
@@ -24,7 +24,7 @@
 }
 
 .Icon-Background:hover {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .Icon {

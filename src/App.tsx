@@ -4,6 +4,8 @@ import './App.css';
 import Header from './header/Header';
 import Introduction from './introduction/Introduction';
 import Navbar from './navbar/Navbar';
+import Experience from './experience/Experience';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       <Header></Header>
       <Introduction></Introduction>
+      <Experience></Experience>
     </div>
   );
 }
