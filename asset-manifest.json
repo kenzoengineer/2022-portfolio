@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/2022-portfolio/static/css/main.c0bd4b2d.css",
-    "main.js": "/2022-portfolio/static/js/main.5a68ca2e.js",
+    "main.js": "/2022-portfolio/static/js/main.d188cb42.js",
     "static/js/787.fb771931.chunk.js": "/2022-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/External-02.pdf": "/2022-portfolio/static/media/External-02.0ce60af665ece8c69d98.pdf",
     "static/media/header_image.jpg": "/2022-portfolio/static/media/header_image.0e9fbf0461e650e49f22.jpg",
-    "static/media/qbuild.svg": "/2022-portfolio/static/media/qbuild.4d1ebbd5d5e471956e1cbf8133ad0e89.svg",
-    "static/media/shoplogix.svg": "/2022-portfolio/static/media/shoplogix.a0cab7c7f0e88c3e23b41e3b77422c69.svg",
-    "static/media/senstar.svg": "/2022-portfolio/static/media/senstar.660ee5c34bda5199197cf44512945370.svg",
+    "static/media/qbuild.svg": "/2022-portfolio/static/media/qbuild.91384145530ccb04bd4b0fb76b1616ed.svg",
+    "static/media/shoplogix.svg": "/2022-portfolio/static/media/shoplogix.aa78a0bcee3b194e57e7a3dee4b6b615.svg",
+    "static/media/senstar.svg": "/2022-portfolio/static/media/senstar.d9acb4eef5bbee32b65ef1955bd034fe.svg",
     "index.html": "/2022-portfolio/index.html",
     "main.c0bd4b2d.css.map": "/2022-portfolio/static/css/main.c0bd4b2d.css.map",
-    "main.5a68ca2e.js.map": "/2022-portfolio/static/js/main.5a68ca2e.js.map",
+    "main.d188cb42.js.map": "/2022-portfolio/static/js/main.d188cb42.js.map",
     "787.fb771931.chunk.js.map": "/2022-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0bd4b2d.css",
-    "static/js/main.5a68ca2e.js"
+    "static/js/main.d188cb42.js"
   ]
 }
