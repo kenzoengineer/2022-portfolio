@@ -18,7 +18,7 @@ const NavbarItem = (props: NavbarItemProps) => {
 
 const ResumeItem = () => {
     return (
-        <a href={PDF} target="_blank" className="resume-button">Resume</a>
+        <a href={PDF} target="_blank" rel="noreferrer" className="resume-button">Resume</a>
     )
 }
 

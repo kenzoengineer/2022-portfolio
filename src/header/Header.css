@@ -60,14 +60,12 @@
 .portrait-glow {
     position: absolute;
     background: linear-gradient(90deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5));
-    animation: gradient 5s ease infinite;
-    animation-delay: 3s;
     background-size: 400% 400%;
     right: 9vw;
     height: 27vw;
     width: 27vw;
 
-    animation: 1s ease-in-out 0s glowin;
+    animation: 1s ease-in-out 0s glowin, gradient 5s ease infinite;
     opacity: 0;
     animation-fill-mode: forwards;
     animation-delay: 3s;
@@ -182,7 +180,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    height: 500vh;
+    height: 600vh;
 }
 
 .stripe-1 {

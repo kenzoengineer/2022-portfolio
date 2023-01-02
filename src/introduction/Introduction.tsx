@@ -1,4 +1,3 @@
-import Icon from "../common/Icon"
 import BadgeContainer from "./BadgeContainer";
 import "./Introduction.css"
 

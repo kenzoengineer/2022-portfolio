@@ -1,10 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './header/Header';
 import Introduction from './introduction/Introduction';
 import Navbar from './navbar/Navbar';
 import Experience from './experience/Experience';
+import Projects from './projects/Projects';
 
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
       <Header></Header>
       <Introduction></Introduction>
       <Experience></Experience>
+      <Projects></Projects>
     </div>
   );
 }

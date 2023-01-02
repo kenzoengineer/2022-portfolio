@@ -44,3 +44,8 @@
     box-shadow: 0 0 10px 1px var(--primary);
     cursor: pointer;
 }
+
+.swap-container:hover {
+    font-size: 1.1em;
+    margin-left: 0.22em;
+}

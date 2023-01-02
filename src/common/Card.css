@@ -16,6 +16,9 @@
     align-items: center;
     justify-content: center;
     height: 8em;
+}
+
+.card-bordered {
     border-image-source: linear-gradient(90deg, var(--s1), var(--s2), var(--s3), var(--s4), var(--s5));
     border-image-slice: 1;
     border-bottom-width: 3px;
@@ -39,6 +42,22 @@
 .card-date {
     font-size: 1em;
     color: var(--secondary);
+}
+
+.card-title-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title-area .Icon-Container {
+    font-size: 2em !important;
+    margin: 0;
+    color: var(--secondary);
+}
+
+.card-title-area .Icon-Container:hover {
+    color: var(--primary);
 }
 
 .card-title {
