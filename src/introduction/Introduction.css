@@ -1,11 +1,11 @@
 .intro-container {
-    padding: 1em 0;
+    padding: 4em 4em;
     position: relative;
     width: 100vw;
     background-color: var(--tertiary);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     flex-wrap: no-wrap;
     /* box-shadow: 0px 0px 10px 10px var(--background); */
 }
@@ -27,7 +27,7 @@
     text-align: left;
     width: 50vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
     background-size: 10px 10px;
 }

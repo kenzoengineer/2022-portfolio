@@ -1,0 +1,24 @@
+---
+name: Build and Deploy Page to GH Pages
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build
+      uses: npm install
+
+    - name: Deploy
+      run:
+        git config --global user.name 'kenzoengineer'
+        git config --global user.email 'kenzoengineer@gmail.com'
+        git remote set-url origin https://github.com/kenzoengineer/2022-portfolio
+        npm run deploy
