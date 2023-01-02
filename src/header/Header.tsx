@@ -20,7 +20,7 @@ const Header = () => {
                     <Icon type="fab" icon="linkedin" href="https://www.linkedin.com/in/ken-jiang/" />
                     <Icon type="fab" icon="github" href="https://github.com/kenzoengineer" />
                     <Icon type="fab" icon="instagram" href="https://www.instagram.com/kenzoengineer/" />
-                    <Icon type="fas" icon="envelope" href="https://www.artstation.com/kenzoengineer" />
+                    <Icon type="fas" icon="envelope" href="mailto:ken.jiang@uwaterloo.ca" />
                 </div>
             </div>
             <div className="right-half">
