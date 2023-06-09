@@ -12,7 +12,7 @@ const Header = () => {
         <div id="home" className="header-container">
             <div className="left-half">
                 <div className="text-container">
-                    <div className="small-name">江华燚</div>
+                    <div className="small-name">江华炜</div>
                     <div className="big-name">KEN JIANG</div>
                     <div className="tagline">Computer Engineering @ UWaterloo</div>
                 </div>

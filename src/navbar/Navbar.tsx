@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import PDF from "./External-02.pdf";
+import PDF from "./resume_june_2023.pdf";
 import Themeswap from "../themeswap/Themeswap";
 
 interface NavbarItemProps {
