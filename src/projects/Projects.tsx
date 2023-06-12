@@ -4,14 +4,14 @@ import CardProps from "../interfaces"
 
 const prj_1: CardProps = {
     image: "",
-    title: "TextTrack",
-    small: "MongoDB, Node.js, Discord.js",
+    title: "TextTracker",
+    small: "MongoDB, Node.js, Discord.js, Docker",
     subtitle: "Phrase Frequency Tracking and Visualizing Discord Bot",
     description: [
         "Used MongoDB's document based storage for flexible schema, aiding in evolvability",
         "Leveraged quickchart.js to generate procedural web based charts",
         "Build with extensiblility in mind to allow for sharding and distribution of load over multiple nodes",
-        "Deployed on AWS's EC2 for high uptime"
+        "Deployed on AWS's EC2 for high uptime with Docker"
     ],
     href: "https://github.com/kenzoengineer/TextTracker"
 }
