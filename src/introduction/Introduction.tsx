@@ -10,7 +10,7 @@ const Introduction = () => {
         <div id="intro" className="intro-container">
             <div className="intro-content">
                 <h1 className="intro-header">Hello!</h1>
-                Welcome to my portfolio. My name is Ken and I am currently in my 3rd year of Computer Engineering at the University of Waterloo. I am a skilled and experienced software developer with a passion for tackling difficult problems and coming up with innovative solutions.
+                Welcome to my portfolio. My name is Ken and I am in my 3rd year of Computer Engineering at the University of Waterloo. I am currently on Academic Exchange in Hong Kong at the Hong Kong Polytechnic University, studying Electronic and Information Engineering. I am a skilled and experienced software developer with a passion for tackling difficult problems and coming up with innovative solutions.
                 <br />
                 <br />
                 With more than a year of internship experience, I've had the opportunity to work on a wide range of products, from small-scale in-house solutions to large scale enteprise solutions. I learn something new every day and am looking forward to beginning my first full time career when I graduate.
